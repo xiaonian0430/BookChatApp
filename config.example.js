@@ -1,5 +1,5 @@
-// api host，末尾不要带斜杠。后端程序是BookStack (https://github.com/truthhun/BookStack)
-let host = 'http://localhost:8181/bookchat'
+// api host，末尾不要带斜杠。后端程序是BookStack (https://github.com/xiaonian0430/BookStack)
+let host = 'http://localhost:8100/bookchat'
 
 
 
@@ -16,7 +16,7 @@ const info = {
 	version: 'v1.5.1',
 	copyright: 'BookStack.CN',
 	license: 'Apache 2.0',
-	author: 'TruthHun',
+	author: 'xiaonian',
 }
 
 const api = {
