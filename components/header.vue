@@ -52,7 +52,7 @@
 		props: {
 			title: {
 				type: String,
-				default: 'BookChat'
+				default: 'ShareKnow'
 			},
 			showIcon: {
 				type: Boolean,

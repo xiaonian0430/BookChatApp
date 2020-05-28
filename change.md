@@ -1,19 +1,19 @@
-## BookChatApp v1.5.0
+## ShareKnow v1.5.0
 - [x] 增加显示最近阅读的书籍
 - [x] 移除书架书籍引起的书架空白问题的bug
 - [x] 使用`ActionSheet`组件优化书架书籍管理方式
-- [x] 增加类似通讯录的分类布局。（[修改配置方式](https://gitee.com/truthhun/BookChatApp/blob/master/pages/cate/cate.vue#L76)）
-- [x] 修复 Android内容阅读亮度调节跳转系统设置的问题(APP请求的手机权限不足的问题造成)（[#I1DMRB](https://gitee.com/truthhun/BookChatApp/issues/I1DMRB)）
-- [x] 书架收藏的书籍分类太多时，部分机型会出现分类换行显示，导致下边显示的书籍封面被盖住（[#I1DMRC](https://gitee.com/truthhun/BookChatApp/issues/I1DMRC)）
+- [x] 增加类似通讯录的分类布局。（[修改配置方式](https://gitee.com/xiaonian0430/ShareKnow/blob/master/pages/cate/cate.vue#L76)）
+- [x] 修复 Android 内容阅读亮度调节跳转系统设置的问题(APP 请求的手机权限不足的问题造成)（[#I1DMRB](https://gitee.com/xiaonian0430/ShareKnow/issues/I1DMRB)）
+- [x] 书架收藏的书籍分类太多时，部分机型会出现分类换行显示，导致下边显示的书籍封面被盖住（[#I1DMRC](https://gitee.com/xiaonian0430/ShareKnow/issues/I1DMRC)）
 
-## BookChatApp v1.4.0
+## ShareKnow v1.4.0
 
 - [x] 增加本月累计签到和上月累计签到等榜单
 - [x] 增加分享功能
 
 > 本次版本，使用 HBuilderX 2.6.5 进行开发，推荐版本跟进
 
-## BookChatApp v1.3.0
+## ShareKnow v1.3.0
 - [x] 书籍介绍页面显示书籍标签，以便用户快捷搜索
 - [x] 用户退出后，更新书架内容
 - [x] 解决类似`mgt-30upx`等class样式不生效的问题，将此类class名更换为`mgt-30`
@@ -30,7 +30,7 @@
 
 > **注意事项**: 不要使用 `v3` 模式进行编译，不然阅读页面的内容会渲染不出来
 
-## BookChatApp v1.2.0
+## ShareKnow v1.2.0
 - [x] 平板适配页面
 	- [x] 目录页            /pages/menu/menu
 	- [x] 书籍阅读页         /pages/read/read

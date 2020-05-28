@@ -182,6 +182,12 @@
 				if (config.debug) console.log("banner click", e)
 				let url = e.target.dataset.url
 				if (!url) return
+				
+				// add by xiaonian @2020-05-28
+				uni.navigateTo({
+					url: "/pages/index/web?url=" + url
+				})
+				return
 
 				// #ifdef MP
 				uni.navigateTo({

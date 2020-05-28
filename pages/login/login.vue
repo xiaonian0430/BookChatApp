@@ -81,7 +81,7 @@
 			findPassword: function(e) {
 				uni.showModal({
 					title: '温馨提示',
-					content: '目前BookChat暂不支持找回密码的功能，如果忘记了密码，请打开书栈网(https://www.bookstack.cn)将密码找回',
+					content: '目前暂不支持找回密码的功能，如果忘记了密码，请打开书栈网(https://www.bookstack.cn)将密码找回',
 				})
 			},
 			formSubmit: function(e) {

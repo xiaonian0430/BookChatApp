@@ -3,9 +3,14 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "BookChat"
+				"navigationBarTitleText": "ShareKnow"
 			}
 		}, {
+			"path": "pages/index/web",
+			"style": {
+				"navigationBarTitleText": "ShareKnow"
+			}
+		},{
 			"path": "pages/read/read"
 		}, {
 			"path": "pages/menu/menu",
@@ -114,7 +119,7 @@
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "BookChat",
+		"navigationBarTitleText": "ShareKnow",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#FFFFFF",
 		"navigationStyle": "custom"

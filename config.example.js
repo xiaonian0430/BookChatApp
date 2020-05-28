@@ -4,8 +4,8 @@ let host = 'http://localhost:8100/bookchat'
 
 
 // 默认分享的内容
-let shareContent = 'BookChat，程序员IT互联网开源编程书籍免费阅读'
-let shareLink = 'https://www.bookstack.cn/read/help/app.md'
+let shareContent = 'ShareKnow，分享知识'
+let shareLink = 'https://sk.showcm.top/read/help/app.md'
 
 // 是否是调试模式。如果是生产环境，请设置为false
 const debug = true
@@ -14,7 +14,7 @@ const debug = true
 const info = {
 	about: 'help/about', // "关于我们"的文档标识
 	version: 'v1.5.1',
-	copyright: 'BookStack.CN',
+	copyright: 'sk.showcm.top',
 	license: 'Apache 2.0',
 	author: 'xiaonian',
 }
