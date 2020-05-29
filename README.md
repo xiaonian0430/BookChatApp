@@ -97,8 +97,8 @@ QQ交流群：457803862（猿军团）
 
 Web 全栈工程师，自带发际线魔法加成，擅长`Ctrl + C` 和 `Ctrl + V`
 
-- 作者：皇虫（xiaonian0430）
-- Email: xiaonian0430#QQ.COM（把 # 换成 @ ）
+- 作者：axiu（xiaonian0430）
+- Email: xiaonian0430#163.com（把 # 换成 @ ）
 
 ## 预览
 
