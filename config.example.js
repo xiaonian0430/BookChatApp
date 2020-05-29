@@ -1,5 +1,5 @@
-// api host，末尾不要带斜杠。后端程序是BookStack (https://github.com/xiaonian0430/BookStack)
-let host = 'http://localhost:8100/bookchat'
+// api host，末尾不要带斜杠。后端程序是 ShareKnow (https://github.com/xiaonian0430/ShareKnow)
+let host = 'http://localhost:8100/shareknow'
 
 
 
