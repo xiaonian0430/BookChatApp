@@ -1,5 +1,5 @@
 {
-    "name" : "shareKnow",
+    "name" : "ShareKnow",
     "appid" : "__UNI__EA96300",
     "description" : "",
     "versionName" : "1.5.1",
@@ -39,7 +39,8 @@
             /* SDK配置 */
             "sdkConfigs" : {
                 "ad" : {},
-                "speech" : {}
+                "speech" : {},
+                "oauth" : {}
             },
             "icons" : {
                 "android" : {
@@ -102,6 +103,9 @@
         "usingComponents" : true,
         "uniStatistics" : {
             "enable" : true
+        },
+        "setting" : {
+            "urlCheck" : true
         }
     },
     "mp-toutiao" : {
@@ -119,6 +123,9 @@
     "mp-qq" : {
         "uniStatistics" : {
             "enable" : true
+        },
+        "setting" : {
+            "urlCheck" : true
         }
     },
     "uniStatistics" : {
