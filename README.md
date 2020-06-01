@@ -4,7 +4,7 @@
 
 ![](static/images/logo.png)
 
-通用书籍阅读APP，[ShareKnowApp](https://gitee.com/xiaonian0430/ShareKnowApp) 的 `uni-app` 实现版本，支持多端分发，编译生成 Android 和 iOS 手机APP以及各平台的小程序。
+通用书籍阅读 APP，[ShareKnowApp](https://github.com/xiaonian0430/ShareKnowApp) 的 `uni-app` 实现版本，支持多端分发，编译生成 Android 和 iOS 手机APP以及各平台的小程序。
 
 使用`ShareKnowApp`，您可以轻松地将您的电子书、文档手册和在线书籍分发到各个小程序平台，以及编译生成手机APP发布到各大手机软件市场供用户下载和使用。
 
@@ -52,7 +52,7 @@ APP下载体验地址： https://sk.showcm.top/app
 
 **ShareKnow 官网**
 
-书栈网： https://sk.showcm.top
+共享知识： https://sk.showcm.top
 
 ### 二次开发基本步骤
 
@@ -83,105 +83,13 @@ APP下载体验地址： https://sk.showcm.top/app
 - [x] 书籍介绍页         /pages/intro/intro
 
 
-## QQ交流群
-
-QQ交流群：457803862（猿军团）
-
-加群请备注`来自ShareKnowApp`
-
-说明：
-
-> 该群是一个技术交流群。如果是开源程序遇到问题，请直接提交issues，群里不解答问题.
-
 ## 作者介绍
 
 Web 全栈工程师，自带发际线魔法加成，擅长`Ctrl + C` 和 `Ctrl + V`
 
-- 作者：axiu（xiaonian0430）
+- 作者：阿休（xiaonian0430）
 - Email: xiaonian0430#163.com（把 # 换成 @ ）
-
-## 预览
-
-### 启动页
-
-![](unpackage/images/iphone/loading.png)
-
-### 首页
-
-
-![](unpackage/images/iphone/index.png)
-
-<br/>
-<br/>
-
-### 分类页
-
-![](unpackage/images/iphone/category.png)
-
-<br/>
-<br/>
-
-### 书架页
-
-![](unpackage/images/iphone/bookshelf.png)
-
-<br/>
-<br/>
-
-### 书籍介绍页
-
-![](unpackage/images/iphone/intro.png)
-
-<br/>
-<br/>
-
-### 书籍阅读页
-
-![](unpackage/images/iphone/read.png)
-
------
-
-![](unpackage/images/read-menu.png)
-
------
-
-![](unpackage/images/read-setting.png)
-
-<br/>
-<br/>
-
-### 登录
-
-
-![](unpackage/images/login.png)
-
-<br/>
-<br/>
-
-### 个人中心
-
-![](unpackage/images/iphone/me.png)
-
-<br/>
-<br/>
-
-### 搜索
-
-![](unpackage/images/iphone/search.png)
-
------
-
-![](unpackage/images/search-book-2.png)
-
 
 ## 开源协议
 
 Apache v2.0
-
-
-## 赞助
-
-如果您觉得程序还可以，欢迎 start 和 fork，以及赞助我一杯咖啡
-
-![](unpackage/images/alipay.jpg)
-![](unpackage/images/wxpay.jpg)
