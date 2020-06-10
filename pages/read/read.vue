@@ -446,20 +446,26 @@
 				if (config.debug) console.log(e)
 				let screenBrightness = parseFloat(e.detail.value).toFixed(1)
 				this.screenBrightness = screenBrightness
+				// #ifndef H5
+				// #ifndef MP-TOUTIAO
 				uni.setScreenBrightness({
 					value: screenBrightness,
 				})
+				// #endif
+				// #endif
 			},
 			initReaderSetting: function() {
 				let setting = util.getReaderSetting()
 				let screenBrightness = 0
 
 				// #ifndef H5
+				// #ifndef MP-TOUTIAO
 				uni.getScreenBrightness({
 					success: function(res) {
 						screenBrightness = res.value
 					}
 				})
+				// #endif
 				// #endif
 
 				this.setting = setting

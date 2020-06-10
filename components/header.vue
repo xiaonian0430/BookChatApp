@@ -1,5 +1,5 @@
 <template>
-	<view :style="customBarStyle">
+	<view :style="customBarStyle" v-if="showCustomBar">
 		<view :class="['header', showBorder ? 'header-border' : '' ]" :style="customBarStyle">
 			<view class="row">
 				<view class="col-3">
@@ -20,7 +20,7 @@
 				</view>
 				<view class="col-3">
 					<view class="header-icon icon-right">
-						<view wx:if="showShare" :style="iconPadding" @click="share">
+						<view v-if="showShare" :style="iconPadding" @click="share">
 							<image src="/static/images/share.png"></image>
 						</view>
 						<view v-if="showSearch" @click="headerSearch" :style="iconPadding" class="search">
@@ -47,6 +47,8 @@
 				iconPadding: 'padding-top:16px;padding-bottom:16px',
 				lineMargin: 'margin-top: 16px;',
 				titleBarHeight: 44,
+				showShare: false,
+				showCustomBar: false
 			};
 		},
 		props: {
@@ -80,20 +82,38 @@
 			}
 		},
 		created() {
-			let sysInfo = util.getSysInfo()
-			let that = this
-			let statusBarHeight = sysInfo.statusBarHeight
-			let titleBarHeight = sysInfo.titleBarHeight
-
+			var that = this
+			// #ifdef MP-WEIXIN || MP-QQ || MP-BAIDU || MP-TOUTIAO  || H5 || APP-PLUS
+			that.showCustomBar = true
+			
+			// 自定义NavBar
+			var sysInfo = util.getSysInfo()
+			var statusBarHeight = sysInfo.statusBarHeight
+			var titleBarHeight = sysInfo.titleBarHeight
+			
+			// #ifdef APP-PLUS
+			if (String(info.platform).toLowerCase() == "android"){
+				titleBarHeight += 50
+			}else{
+				titleBarHeight += 45
+			}
+			// #endif
 			that.currentPagesLength = getCurrentPages().length
+			that.titleBarHeight = titleBarHeight
+			
 			that.customBarStyle =
 				`height: ${titleBarHeight}px;line-height: ${titleBarHeight}px;padding-top: ${statusBarHeight}px`
-			that.titleBarHeight = titleBarHeight
-			let top = (titleBarHeight - 16 - 2) / 2
-			let bottom = titleBarHeight - 16 - top
+			
+			var top = (titleBarHeight - 16 - 2) / 2
+			var bottom = titleBarHeight - 16 - top
 			that.iconPadding = `padding-top: ${top}px;padding-bottom: ${bottom}px;`
 			that.lineMargin = `margin-top: ${top}px`
-
+			// #endif
+			
+			// #ifdef MP-ALIPAY
+			that.showCustomBar = false
+			// #endif
+			
 			// #ifdef APP-PLUS
 			that.showShare = true
 			// #endif

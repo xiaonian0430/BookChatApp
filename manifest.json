@@ -112,6 +112,9 @@
         "usingComponents" : true,
         "uniStatistics" : {
             "enable" : true
+        },
+        "setting" : {
+            "urlCheck" : false
         }
     },
     "h5" : {
