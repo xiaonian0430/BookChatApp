@@ -90,14 +90,6 @@
 			var sysInfo = util.getSysInfo()
 			var statusBarHeight = sysInfo.statusBarHeight
 			var titleBarHeight = sysInfo.titleBarHeight
-			
-			// #ifdef APP-PLUS
-			if (String(info.platform).toLowerCase() == "android"){
-				titleBarHeight += 50
-			}else{
-				titleBarHeight += 45
-			}
-			// #endif
 			that.currentPagesLength = getCurrentPages().length
 			that.titleBarHeight = titleBarHeight
 			
