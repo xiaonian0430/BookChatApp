@@ -1,5 +1,3 @@
-[TOC]
-
 # ShareKnowApp
 
 ![](static/images/logo.png)
@@ -8,19 +6,17 @@
 
 使用`ShareKnowApp`，您可以轻松地将您的电子书、文档手册和在线书籍分发到各个小程序平台，以及编译生成手机APP发布到各大手机软件市场供用户下载和使用。
 
+
 ## APP 体验
 
 目前 `ShareKnowApp` 已经打包编译生成的 Android 和 iOS 手机APP，您可以直接下载体验和感受下。
 
 APP下载体验地址： https://sk.showcm.top/app
 
+
 ## 设计开发
 
-`ShareKnowApp`的设计开发跟微信小程序[ShareKnowApp](https://gitee.com/xiaonian0430/ShareKnowApp)几乎没有两样，如果有不一样的地方，
-那就是从微信小程序的原生开发迁移到了使用`uni-app`的vue开发上来。
-
-`ShareKnowApp`中对HTML内容的渲染，经过多次对性能和渲染效果体验的对比，最终没有采用网上开源的第三方渲染组件，直接使用了`uni-app`自带的`rich-text`组件，
-而将`ShareKnowApp`编译成各平台的小程序的时候，同样也是用了各小程序平台的`rich-text`组件。
+`ShareKnowApp`中对HTML内容的渲染，经过多次对性能和渲染效果体验的对比，最终没有采用网上开源的第三方渲染组件，直接使用了`uni-app`自带的`rich-text`组件，而将`ShareKnowApp`编译成各平台的小程序的时候，同样也是用了各小程序平台的`rich-text`组件。
 
 
 ## 特点
@@ -31,19 +27,9 @@ APP下载体验地址： https://sk.showcm.top/app
 - 强大：尽管`ShareKnowApp`使用的是混合开发，但是编译生成的手机App以及各平台的小程序，性能和体验也没见得真比原生的差
 
 
-## 二次开发
-
-可能您对现有程序的功能和主题色调不是很满意，或者有自己的一套UI设计方案，那么，您可以对`ShareKnowApp`进行二次开发，如果您对`Vue`熟悉。
-
-
-
 ### 后端程序
 
-`ShareKnowApp`的配套后端程序是 [ShareKnow](https://gitee.com/xiaonian0430/ShareKnow) v2.1 以上版本。
-
-`ShareKnow`的安装部署教程，看这里--> [ShareKnow安装部署](https://sk.showcm.top/read/help/Ubuntu.md)
-
-> 注意： ShareKnow 的安装部署，不是使用源码进行部署的，而是用编译好了的可执行程序进行部署
+`ShareKnowApp`的配套后端程序是 `ShareKnow`。
 
 **ShareKnow 开源地址**
 
@@ -54,6 +40,7 @@ APP下载体验地址： https://sk.showcm.top/app
 
 共享知识： https://sk.showcm.top
 
+
 ### 二次开发基本步骤
 
 1. 安装部署`ShareKnow`
@@ -63,6 +50,7 @@ APP下载体验地址： https://sk.showcm.top/app
 1. 根据自己的开发环境，设置`host`配置项
 
 > 如果是在开发环境，请把`debug`设置为true，编译生成生产程序的时候，把`debug`设置为false
+
 
 ## 程序页面
 
@@ -82,13 +70,6 @@ APP下载体验地址： https://sk.showcm.top/app
 - [x] 注册页            /pages/register/register
 - [x] 书籍介绍页         /pages/intro/intro
 
-
-## 作者介绍
-
-Web 全栈工程师，自带发际线魔法加成，擅长`Ctrl + C` 和 `Ctrl + V`
-
-- 作者：阿休（xiaonian0430）
-- Email: xiaonian0430#163.com（把 # 换成 @ ）
 
 ## 开源协议
 

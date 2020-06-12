@@ -195,7 +195,7 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		font-size: 16px;
+		font-size: 30rpx;
 		color: #000000;
 		text-align: center;
 	}
